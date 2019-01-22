@@ -1,0 +1,39 @@
+#### General information about the project    ####
+#### All this will be visible on DataCamp.com ####
+title          : "The title of the project. Max 41 characters." # Instructor fills out
+description    : > # Instructor fills out
+  A short description of the project. Max 100 characters. 
+long_description: | # Instructor fills out
+  *Note: this project is [soft launched](https://en.wikipedia.org/wiki/Soft_launch), which means you may experience some bugs. Please click "Report an Issue" in the top-right corner of the project interface to provide feedback.*
+  
+  A longer description of the project comprised of three paragraphs, written in Markdown.
+  Paragraph 1 should be an exciting introduction to analysis/model/etc. students will complete.
+  
+  Paragraph 2 should list the prerequisite courses students require to complete this project.
+  
+  Paragraph 3 should describe and link to (if possible) the dataset used in the project.
+  
+  See this project page for an example: https://www.datacamp.com/projects/250
+time_needed: "45 minutes" # "30/45/60 minutes". # DataCamp fills out
+
+#### Metadata regarding course requirements and topics ####
+#### This will be updated by your DataCamp contact     ####
+technology: 1 # 1 == R, 2 == python, 3 == sql # Automatically set
+# IDs for courses that are prerequisites
+#  see https://mb.datacamp.com/question/126 for IDs
+prerequisites: # DataCamp fills out
+  - 1498 # Data Visualization in R
+difficulty_level: 2 # 1 == easy, 2 == medium, 3 == hard # DataCamp fills outs
+# IDs for the topics the project covers
+# See here for topic codes: https://www.dropbox.com/s/743poqhcos6q2x6/Screenshot%202018-10-31%2010.17.19.png?dl=0
+topics: # DataCamp fills out
+  - 12
+
+#### Technical settings for the docker image running the project ####
+#### This will be updated by your DataCamp contact.              ####
+language       : r # One of r, python or sql
+# The name of the docker image used to run the course
+from           : 'r-notebooks-prod:v1.1.0'
+runtime_config : default # default/heavy . Set to heavy for more resource intensive projects.
+
+
